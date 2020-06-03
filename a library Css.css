@@ -1,0 +1,627 @@
+*{
+    margin:10;
+    padding:0;
+}
+ 
+
+h1{
+    position:center;
+    text-align:center;
+    background-color:#667;
+    border-radius:10px;
+}
+
+.form1{
+    width:400px;
+    height:500px;
+    margin:50px;
+    background-color:#dddddd;
+    border-radius:10px;
+    border:solid #555;
+}
+
+.form2{
+    width:400px;
+    height:300px;
+    margin:50px;
+    background-color:#dddddd;
+    border-radius:10px;
+    border:solid #555;
+}
+
+
+legend{
+    margin:5px;
+    height:18px;
+    width:390px;
+    background-color:#ededed;
+    text-align:center;    
+}
+
+label{
+    margin:5px;
+}
+
+input{
+    margin:5px;
+    background-color:#f6f6f6;
+    border-radius:5px;
+}
+
+ select{
+    
+    margin:0px 0px 0px 100px;
+}
+
+li{
+    list-style-position:inside;
+    list-style-type:none;
+    margin:5px;
+    font-size:18px;
+     width:250px;
+    text-decoration: none;
+    
+}
+
+.choose{
+    width:300px;
+    height:300px;
+    padding:5px;
+    margin:50px;
+    line-height:28px;
+    background-color:#efefef;     
+    border-radius:15px;
+    text-decoration:none;
+}
+.topnav{
+    
+    background-color:#efefef;
+}
+
+
+.header3{
+    text-transform:uppercase;
+    color:#99f;
+    background-color:#123;
+    text-align:center;
+    border-radius:10px;
+    letter-spacing:3px;
+    margin:-19px 0px 5px 0px;
+    width:300px;
+}
+
+[name ^= "find"]{
+    text-decoration:none;
+ 
+}
+
+.read{
+    background-color:#000;
+    border-radius:5px;
+    margin:50px 2px;
+    border-radius:50px;    
+    clear:both;
+
+}
+
+.read > h2{
+    color:#123;
+    background-color:#efefef;
+    border-radius:10px;
+    
+}
+
+.btn{
+    margin:10px;
+    padding:10px;
+    border-radius:100px;
+    background-color:antiquewhite;
+}
+
+
+
+
+.hover:hover{
+    color:#066;
+    font-size:20px;
+    background-color:#fff;
+    border-radius:15px;
+    font-weight:bold;
+    display:inline-block;
+    width:auto;
+}
+
+
+    
+.hover{
+        padding:10px 10px;
+        background-color:#eee;
+        font-size:5px;
+        width:29px;
+        height:auto;
+}
+
+
+
+
+
+
+
+
+.btn:hover{
+    background-color:#123; 
+    font-size:16px;
+    color:#fff;
+}
+
+.btn:active{
+    background-color:rgba(0, 88, 255, 0.89);
+    
+}
+
+img{
+border-radius:10px;
+    height:100px;
+    display:block;
+    margin:10px 20px 0px 30px;    
+}
+
+.span_book{
+    letter-spacing:1px;
+    margin:35px;
+    font-family:sans-serif;
+    font-size:18px;
+}
+
+.child_type{
+    width:500px;
+    margin:30px;
+    float:left;
+}
+
+header3,div.read>h2{
+    font-family:gothic;
+}
+
+
+.next2:hover{
+    color:#669900;
+    background-color:#ddd;
+    font-size:13px;
+    font-weight:bold;
+    padding:10px;  
+}
+
+.next2:active{
+    color:#990000;
+    background-color:#ddd;
+    font-weight:bold;
+}
+
+.nt2,.next2{
+    background-color:#ddd;
+    border-radius:1000px;
+    margin:-21px;
+    display:block;
+    text-decoration:none;
+    padding:10px;    
+}
+
+.next2{
+    
+    padding:10px;
+}
+
+
+.navtop > div{
+    width:110px;
+    float:left;
+    font-size:22px;
+    background-color:#767676;
+    text-align:center;
+    padding:15px;   
+}
+ 
+.navtop > div:hover{
+    background-color:#898989;
+    border:solid 1px #efefef;
+    border-radius:5px;
+}
+
+.navtop{    
+    border-radius:20px; 
+    margin:-20px 0px 100px 10px;
+}
+
+table,th,td{
+    font-size:18px;
+    margin:10px;
+    padding:3px;
+    border:solid #bbc131;
+}
+
+.textbook{
+    width:900px;
+    border:solid #dedede;
+    background-color:#efefef;
+    line-height:30px;
+    font-size:18px;
+}
+.filmname { 
+    background-color:#654;
+    width:500px;
+    border-radius:15px;
+    padding:10px;
+    margin:15px;
+} 
+
+
+.suggestions{
+    display:inline-block;
+    width:70px;
+    height:90px;
+    margin:5px;
+    }
+
+.page5{
+    background-color:#abaaaa; 
+    border-radius:10px;
+    width:500px;
+}
+    
+.btn2{
+    border-radius:4px;
+    background-color:#789;
+    color:#123;
+    
+    
+}
+
+.btn2:hover{
+    border-radius:4px;
+    background-color:palegreen;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+  <!--start media(min-width)-->
+  
+
+h1{
+    position:center;
+    text-align:center;
+    background-color:#667;
+    border-radius:10px;
+}
+
+
+    
+    
+    
+   
+.form1{
+    width:300px;
+    height:450px;
+    margin:15px;
+    background-color:#dddddd;
+    border-radius:10px;
+    border:solid #777;
+    font-size:15px;
+}
+
+.form2{
+    width:400px;
+    height:400px;
+    margin:20px 0px 0px 70px;
+    background-color:#dddddd;
+    border-radius:10px;
+    border:solid #555;
+    
+} 
+
+.textbook{
+        width:450px;
+        line-height:14px;
+        font-size:10px;
+}
+    
+    tabel{
+        width:450px;
+    }
+    
+    
+    
+  
+
+legend{
+    margin:3px;
+    height:18px;
+    width:180px;
+    background-color:#ededed;
+    text-align:center;    
+}
+
+.label1{
+    margin:6px;
+}
+
+.label2{
+    margin:6px;
+}
+
+input{
+    margin:4px;
+    background-color:#f6f6f6;
+    border-radius:5px;
+}
+
+li{
+    list-style-position:inside;
+    list-style-type:none;
+    margin:7px;
+    font-size:15px;
+    width:150px;
+    
+}
+
+.choose{
+    width:210px;
+    height:200px;
+    padding:3px;
+    margin:20px;
+    line-height:22px;
+    background-color:#efefef;     
+    border-radius:15px;
+    text-decoration:;
+    
+}
+    
+   
+    
+    
+.navtop > div{
+    width:80px;
+    float:left;
+    font-size:16px;
+    background-color:#efefef;
+    text-align:center;
+    padding:5px;   
+}
+ 
+.navtop > div:hover{
+    background-color:#898989;
+    border:solid 1px #efefef;
+    border-radius:5px;
+}
+
+.navtop{    
+    border-radius:20px; 
+    margin:-20px 0px 100px 10px;
+}
+  
+
+.hover:hover{
+    color:#066;
+    font-size:15px;
+    background-color:#afafaf;
+    border-radius:15px;
+    font-weight:bold;
+    display:inline-block;   
+}
+    
+.hover{
+        padding:10px 10px;
+        background-color:#eee;
+        text-decoration:line-through;
+        font-size:50px;
+        width:50px;
+        height:20px;
+}
+
+.header3{
+    text-transform:uppercase;
+    color:#99f;
+    background-color:#123;
+    text-align:center;
+    border-radius:10px;
+    letter-spacing:3px;
+    margin:-19px 0px 5px 0px;
+    width:210px;
+}
+
+[name ^= "find"]{
+    text-decoration:none;   
+}
+
+.read{
+    background-color:#000;
+    border-radius:5px;
+    margin:20px 2px;
+    border-radius:50px;    
+    clear:both;
+
+}
+
+.read > h2{
+    color:#123;
+    background-color:#efefef;
+    border-radius:10px;
+    
+}
+
+.btn{
+    margin:4px;
+    padding:4px;
+    border-radius:100px;
+    background-color:antiquewhite;
+}
+
+.btn:hover{
+    background-color:#123; 
+    font-size:15px;
+    color:#fff;
+}
+
+.btn:active{
+    background-color:rgba(0, 88, 255, 0.89);
+    
+}
+
+img{
+border-radius:10px;
+    height:75px;
+    display:block;
+    margin:10px 20px 0px 30px;    
+}
+
+.span_book{
+    letter-spacing:0px;
+    margin:10px;
+    font-family:sans-serif;
+    font-size:14px;
+}
+
+.child_type{
+    width:230px;
+    margin:14px;
+    float:left;
+}
+
+header3,div.read>h2{
+    font-family:gothic;
+}
+
+
+.next2:hover{
+    color:#669900;
+    background-color:#ddd;
+    font-size:7px;
+    font-weight:bold;
+    padding:5px;
+}
+
+.next2:active{
+    color:#990000;
+    background-color:#ddd;
+    font-weight:bold;
+}
+
+.nt2,.next2{
+    background-color:#ddd;
+    border-radius:1000px;
+    margin:-1px;
+    display:block;
+    text-decoration:none;
+    padding:1px;
+    
+    
+}
+.next2{
+    
+    padding:5px;
+}
+
+  
+.suggestions{
+    display:inline-block;
+    width:70px;
+    height:90px;
+    margin:5px;
+    }
+    
+    .page5{
+    background-color:#abaaaa; 
+    border-radius:10px;
+    width:500px;
+}
+  
+   .btn2{
+    border-radius:4px;
+    background-color:#789;
+    color:#123;
+    
+    
+}
+
+.btn2:hover{
+    border-radius:4px;
+    background-color:palegreen;
+    
+}
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}

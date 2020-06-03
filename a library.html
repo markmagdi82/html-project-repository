@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>a Library</title>  
+      <link rel="stylesheet" href="a%20library%20Css.css">      
+      
+      
+      
+        </head>
+  <body >
+      
+       <h1>Library</h1>
+       
+    <form class="form1" onsubmit="return validate()" action="a%20library%202.html">
+    
+        <legend>Login With Your Account...</legend><br>
+    
+        <label class="label1">Username</label> <br><input id="uname"  type="text" required/>
+    
+           <br>
+           
+        <label class="label1">Password</label><br>  
+        <input id="pass"  type="password" required/>
+          
+           <br> <label>First Name</label><br>
+            <input type="text" name="name" required/>
+            <br>
+    
+          
+          <label class="label1">Last Name</label><br>
+            <input type="text" required/>
+    
+        <br>
+            <label class="label1">Mobile Phone</label><br>
+            <input type="text" maxlength="11" required/>
+           
+          <br>
+            <label class="label1">Address</label><br>
+            <input type="text" required />
+          
+          <br>
+            <label class="label1">E-mail</label><br>
+            <input type="email" required />
+            <br>
+            <br>
+        
+             <select class="gender" required>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+             </select>
+        
+        
+        
+      
+           <br><br>
+            <button  type="submit">Submit</button>
+    
+    </form>
+    
+    
+    <script type="text/javascript"> 
+          function validate(){
+         
+              var username = document.getElementById("uname");
+              var password = document.getElementById("pass");
+              
+              if(username.value == "" || password.value == ""){
+                  alert("No blank values allowed");
+                  return false;
+                  
+              }else{
+                   true;
+                  
+              }
+              
+              if((password.value).length > 8){
+                  
+                  alert("password cann't exceed 8 characters");
+                  return false;
+              }
+            
+              if((password.value).length < 8){
+                  
+                  alert("password cann't be less than 8 characters");
+                  
+                  return false;
+              }
+             
+              
+          }
+      
+      </script>
+    
+    
+    
+    
+     
+      
+      <!--v.match("[0-9]"/g)-->
+    
+      
+     
+     </body>
+</html>
+
