@@ -214,7 +214,7 @@ header3,div.read>h2{
 
 
 .navtop > div{
-    width:110px;
+    width:130px;
     float:left;
     font-size:22px;
     background-color:#767676;
@@ -444,9 +444,9 @@ li{
     
     
 .navtop > div{
-    width:60px;
+    width:45px;
     float:left;
-    font-size:12px;
+    font-size:9px;
     background-color:#efefef;
     text-align:center;
     padding:5px;   
